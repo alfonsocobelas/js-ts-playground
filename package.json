@@ -1,0 +1,30 @@
+{
+  "name": "js-ts-playground",
+  "version": "1.0.0",
+  "description": "A simple playground for JavaScript and TypeScript code snippets",
+  "main": "index.js",
+  "scripts": {
+    "start:js": "node index.js",
+    "start:ts": "node --loader ts-node/esm index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alfonsocobelas/js-ts-playground.git"
+  },
+  "keywords": [],
+  "author": "Alfonso Cobelas",
+  "license": "MIT",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/alfonsocobelas/js-ts-playground/issues"
+  },
+  "homepage": "https://github.com/alfonsocobelas/js-ts-playground#readme",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.3",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  }
+}
